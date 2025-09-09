@@ -1,1 +1,94 @@
-/* Add you CSS here */
+/* Lavender color palette for a modern look */
+body {
+  background-color: #d6cae3; /* light lavender */
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  color: #b6c687; /* dark lavender for text */
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: #f3edbd; /* medium lavender */
+  padding: 10px 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+nav ul li a {
+  color: #efbdbd;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Section styles */
+section {
+  background-color: #f7dfdf; /* very light lavender */
+  margin: 30px auto;
+  padding: 30px;
+  max-width: 700px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(75, 56, 105, 0.05);
+}
+
+h1, h2 {
+  color: #cac3e4;
+}
+
+/* Contact form styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+input, textarea {
+  padding: 8px;
+  border: 1px solid #b6c687;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+button {
+  background-color: #f7dfdf;
+  color: #b8b7e5;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+button:hover {
+  background-color: #efbdbd;
+}
+
+/* ...existing code... */
+
+/* Hero section layout */
+.hero-container {
+  /* This makes the container hold both text and image side by side */
+  overflow: auto; /* helps contain floated elements */
+}
+.hero-text {
+  float: left; /* text goes to the left */
+  width: 65%;  /* takes up most of the space */
+}
+.hero-img {
+  float: right; /* image goes to the right */
+  margin-left: 20px; /* space between text and image */
+  border-radius: 10px; /* optional: rounded corners */
+}
+
+/* ...existing code... */

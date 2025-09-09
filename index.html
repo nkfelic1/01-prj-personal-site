@@ -2,10 +2,74 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <title>Natalie Feliciano Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <!-- Navigation bar -->
+  <nav>
+    <!-- Navigation links to each section -->
+    <ul>
+      <li><a href="#hero">Hero</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <!-- Container for text and image -->
+    <div class="hero-container">
+      <!-- Text content -->
+      <div class="hero-text">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi! I'm Natalie Feliciano, a web development student.</p>
+      </div>
+      <!-- Image on the right -->
+      <img class="hero-img" src="img/pfp.JPG" alt="My hero image" width="200">
+    </div>
+  </section>
+
+
+  <!-- Home Section -->
+  <section id="home">
+    <!-- Brief description or welcome message -->
+    <h2>Home</h2>
+    <p>This is my personal website to showcase my college projects.</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <!-- Information about yourself -->
+    <h2>About Me</h2>
+    <p>I am passionate about learning web development and creating beautiful websites.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <!-- Placeholder for portfolio projects -->
+    <h2>Projects</h2>
+    <p>Check back soon to see my latest work!</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <!-- Simple contact form -->
+    <h2>Contact</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <br>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea>
+      <br>
+      <button type="submit">Send</button>
+    </form>
+  </section>
 </body>
 </html>
